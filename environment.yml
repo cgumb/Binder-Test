@@ -2,6 +2,7 @@ name: cpp-kernel
 channels:
   - conda-forge
 dependencies:
-  - jupyterlab
-  - xeus-cling  # C++ Kernel
-  - notebook  # Jupyter Notebook support
+  - xeus-cling
+  - libomp  # OpenMP support
+  - clang  # Clang compiler for C++
+  - cmake  # Optional, in case compilation is needed
