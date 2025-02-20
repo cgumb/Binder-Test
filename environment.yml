@@ -1,0 +1,7 @@
+name: cpp-kernel
+channels:
+  - conda-forge
+dependencies:
+  - jupyterlab
+  - xeus-cling  # C++ Kernel
+  - notebook  # Jupyter Notebook support
